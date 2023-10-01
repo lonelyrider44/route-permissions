@@ -1,0 +1,25 @@
+{
+    "name": "lr/route_permissions",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lr\\Route\\Permissions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lonelyrider44",
+            "email": "lonelyrider44@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-permission": "^3.18"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LR\\Route\\Permissions\\RoutePermissionsServiceProvider"
+            ]
+        }
+    }
+}
